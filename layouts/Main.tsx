@@ -15,7 +15,6 @@ export default ({ children, title = 'Next.js Ecommerce' }: LayoutType) => {
     <div className="app-main">
       <Head>
         <title>{ title }</title>
-        <script src="https://ecommerce.fgbyte.com/cdn-cgi/zaraz/i.js"></script>
       </Head>
 
       <Header />

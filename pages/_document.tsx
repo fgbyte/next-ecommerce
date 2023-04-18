@@ -34,6 +34,7 @@ export default class CustomDocument extends Document<DocumentProps> {
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
               />
+              {/* DataLayer */}
               <script
                 dangerouslySetInnerHTML={{
                   __html: `
